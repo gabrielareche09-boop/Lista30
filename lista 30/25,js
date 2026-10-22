@@ -1,0 +1,11 @@
+let velocidade = 92;
+let limite = 80;
+let limite20 = 1.20;
+if(velocidade <= limite){
+   console.log(`Dentro do limite`);
+}else if (velocidade * limite20 == limite) {
+    console.log(`Acima do limite`);    
+}else if (velocidade * limite20 == limite){
+    console.log(`Muito acima`);
+    
+}

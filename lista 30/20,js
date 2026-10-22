@@ -1,0 +1,13 @@
+let ValorCompra = 380;
+let desconto1 = ValorCompra * 0.05
+let desconto2 = ValorCompra * 0.10
+let desconto3 = ValorCompra * 0.15
+if (ValorCompra < 100){
+    console.log(`Sem desconto`)
+} else if (ValorCompra >= 100 && ValorCompra < 300) {
+     console.log(`O valor final é ${ValorCompra - desconto1}` )
+} else if (ValorCompra >= 300 && ValorCompra < 500 ) {
+    console.log(`O valor final é ${ValorCompra - desconto2}` )
+} else if (ValorCompra >= 500){
+    console.log(`O valor final é ${ValorCompra - desconto3}` )
+}
